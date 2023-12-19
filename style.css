@@ -11,14 +11,48 @@ body {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+
 .header {
     display: flex;
     height: 80px;
     background-color: #212225;
-    color: #e2e2e2;
-    font-weight: 700;
-    font-size: 28px;
-    font-family: Hero New, Helvetica, sans-serif;
     align-items: center;
     padding-left: 400px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.nav {
+    display: flex;
+    padding-right: 600px;
+    gap: 12px;
+    font-size: 17px;
+}
+
+.bar1 {
+    height: 10px;
+    background-color: #a1f2fd;
+}
+
+.bar2 {
+    height: 10px;
+    background-color: #625dd2;
+}
+
+.bar3 {
+    height: 10px;
+    background-color: #6c3fa5;
 }
