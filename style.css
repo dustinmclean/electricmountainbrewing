@@ -1,0 +1,24 @@
+html {
+    height: -webkit-fill-available; 
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    font-family: Hero New, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    background-color: #212225;
+    color: #e2e2e2;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Hero New, Helvetica, sans-serif;
+    align-items: center;
+    padding-left: 400px;
+}
