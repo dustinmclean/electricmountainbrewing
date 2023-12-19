@@ -32,7 +32,7 @@ a {
 
 .logo {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 34px;
 }
 
 .nav {
@@ -43,16 +43,44 @@ a {
 }
 
 .bar1 {
-    height: 10px;
+    height: 16px;
     background-color: #a1f2fd;
 }
 
 .bar2 {
-    height: 10px;
+    height: 16px;
     background-color: #625dd2;
 }
 
 .bar3 {
-    height: 10px;
+    height: 16px;
     background-color: #6c3fa5;
+}
+
+.banner {
+    height: 400px;
+    background-color: #212225;
+    display: flex;
+    padding-left: 442px;
+    padding-right: 600px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.slogan {
+    color: #e2e2e2;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.banner-text {
+    color: #bcbcbc;
+    font-size: 20px;
+    font-weight: 100;
 }
